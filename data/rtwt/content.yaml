@@ -1,5 +1,4 @@
 home:
   image: "images/perfil.png"
-  imageWidth: "500px"
   greetings: "Um repositório para tentativas de organização de detalhes"
   text: "Todos os artigos estão licenciados sob a Creative Commons Attribution-ShareAlike 4.0 International"
