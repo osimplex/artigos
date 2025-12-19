@@ -1,7 +1,8 @@
 +++
 title = "Tmux"
 date = "2020-02-05"
-tags = ["tmux", "terminal", "multiplexador"]
+palavras-chave = ["tmux", "terminal", "multiplexador"]
+ano = ["2020"]
 featured = false
 +++
 

@@ -1,28 +1,32 @@
-title = 'Simplex'
+title = "Simplex"
 enableRobotsTXT = true
-defaultContentLanguage = 'pt'
+defaultContentLanguage = "pt"
 
-themesdir = 'themes'
-theme = 'rusty-typewriter'
+themesdir = "themes"
+theme = "rusty-typewriter"
 
 [params]
-dateFormat = '02 de Jan de 2006'
+dateFormat = "2006-01-02"
 
 [params.author]
-name = 'Simplex'
+name = "Simplex"
+
+[taxonomies]
+palavra-chave = "palavras-chave"
+ano = "ano"
 
 [related]
 includeNewer = true
 [[related.indices]]
-name = 'tags'
+name = "palavras-chave"
 weight = 100
 
 [params.rtwt]
-searchPath = 'pesquisa'
+searchPath = "pesquisa"
 
 [params.rtwt.side.home]
 sidePaneSticky = false
-taxonomies = ['tags']
+taxonomies = ["palavras-chave", "ano"]
 countTaxonomy = 5
 
 [params.rtwt.side.single]
@@ -34,31 +38,35 @@ showRelated = true
 countRelated = 3
 
 [languages.pt]
-contentDir = 'content'
-languageCode = 'pt-BR'
-languageName = 'Português'
+contentDir = "content"
+languageCode = "pt-BR"
+languageName = "Português"
 
 [[languages.pt.menus.main]]
-name = 'Artigos'
-pageRef = '/artigos'
+name = "Artigos"
+pageRef = "/artigos"
 weight = 1
 
 # [[languages.pt.menus.main]]
-# name = 'Sobre'
-# pageRef = '/sobre.md'
+# name = "Sobre"
+# pageRef = "/sobre.md"
 # weight = 2
 
 [[languages.pt.menus.main]]
-name = 'GitHub'
-url = 'https://github.com/osimplex'
+name = "RSS"
+url = "/index.xml"
 weight = 3
+
+[[languages.pt.menus.main]]
+name = "GitHub"
+url = "https://github.com/osimplex"
+weight = 4
 
 # Image cache
 [caches]
 [caches.images]
-dir = ':cacheDir/images'
+dir = ":cacheDir/images"
 
-# Search index
 [outputFormats]
 [outputFormats.SearchIndex]
 mediaType = "application/json"
@@ -71,4 +79,8 @@ notAlternative = true
 suffixes = ["json"]
 
 [outputs]
-home = ["HTML", "RSS", "SearchIndex"]
+home = ["html", "rss", "SearchIndex"]
+
+[services]
+[services.rss]
+limit = 10

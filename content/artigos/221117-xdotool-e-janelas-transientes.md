@@ -1,7 +1,8 @@
 +++
 title = "Proposta em Bash para uma reimplementação de janela transiente com o xdotool"
 date = "2022-11-17"
-tags = ["xorg", "controle", "shell", "xdotool"]
+palavras-chave = ["xorg", "controle", "shell", "xdotool"]
+ano = ["2022"]
 featured = false
 +++
 

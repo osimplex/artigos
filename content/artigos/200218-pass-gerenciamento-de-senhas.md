@@ -1,7 +1,8 @@
 +++
 title = "Gerenciador de senhas Pass"
 date = "2020-02-18"
-tags = ["pass", "segurança", "senhas", "shell"]
+palavras-chave = ["pass", "segurança", "senhas", "shell"]
+ano = ["2020"]
 featured = false
 +++
 

@@ -1,7 +1,8 @@
 +++
 title = "O nascer do sol multicor, o bailar, ou: o início da sessão gráfica"
 date = "2021-05-31"
-tags = ["xorg", "startx", "shell"]
+palavras-chave = ["xorg", "startx", "shell"]
+ano = ["2021"]
 featured = true
 +++
 

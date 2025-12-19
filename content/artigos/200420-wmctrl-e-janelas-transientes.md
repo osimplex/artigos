@@ -1,7 +1,8 @@
 +++
 title = "Proposta em Bash para uma implementação independente de janela transiente com o wmctrl"
 date = "2020-04-20"
-tags = ["xorg", "controle", "shell", "wmctrl"]
+palavras-chave = ["xorg", "controle", "shell", "wmctrl"]
+ano = ["2020"]
 featured = false
 +++
 

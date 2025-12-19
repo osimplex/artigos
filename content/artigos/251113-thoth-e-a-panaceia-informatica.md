@@ -1,7 +1,8 @@
 +++
 title = "O mito de Thoth e a panacéia informática"
 date = "2025-11-13"
-tags = ["filosofia", "computacao", "platao", "llm", "educacao"]
+palavras-chave = ["filosofia", "computacao", "platao", "llm", "educacao"]
+ano = ["2025"]
 featured = false
 +++
 

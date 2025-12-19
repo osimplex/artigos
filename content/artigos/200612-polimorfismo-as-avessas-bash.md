@@ -1,7 +1,8 @@
 +++
 title = "Polimorfismo em Bash, ou script orientado a confusão"
 date = "2020-06-12"
-tags = ["polimorfismo", "shell", "pog"]
+palavras-chave = ["polimorfismo", "shell", "pog"]
+ano = ["2020"]
 featured = false
 +++
 

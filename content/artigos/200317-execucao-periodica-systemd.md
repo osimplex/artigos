@@ -1,7 +1,8 @@
 +++
 title = "Execução periódica de tarefas com o SystemD"
 date = "2020-03-17"
-tags = ["systemd", "controle", "tarefas periodicas", "newsboat"]
+palavras-chave = ["systemd", "controle", "tarefas periodicas", "newsboat"]
+ano = ["2020"]
 featured = false
 +++
 

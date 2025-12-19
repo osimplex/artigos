@@ -1,7 +1,8 @@
 +++
 title = "Usando soquetes Unix em um protoloco IPC baseado em JSON para controlar \"remotamente\" o mpv"
 date = "2020-04-14"
-tags = ["mpv", "controle", "lua", "shell", "soquete unix"]
+palavras-chave = ["mpv", "controle", "lua", "shell", "soquete unix"]
+ano = ["2020"]
 featured = false
 +++
 

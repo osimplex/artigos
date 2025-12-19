@@ -1,7 +1,8 @@
 +++
 title = "spectrwm e população do painel: para além do baraction.sh"
 date = "2020-07-22"
-tags = ["painel", "spectrwm", "liguagem C"]
+palavras-chave = ["painel", "spectrwm", "liguagem C"]
+ano = ["2020"]
 featured = false
 +++
 

@@ -1,7 +1,8 @@
 +++
 title = "A teoria é a inimiga da prática"
 date = "2025-12-01"
-tags = ["educacao", "teoria", "pratica", "computacao"]
+palavras-chave = ["educacao", "teoria", "pratica", "computacao"]
+ano = ["2025"]
 featured = true
 +++
 

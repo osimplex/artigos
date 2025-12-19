@@ -1,7 +1,8 @@
 +++
 title = "Sxhkd"
 date = "2020-02-10"
-tags = ["sxhkd", "atalhos", "xorg"]
+palavras-chave = ["sxhkd", "atalhos", "xorg"]
+ano = ["2020"]
 featured = false
 +++
 
