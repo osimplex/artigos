@@ -47,10 +47,10 @@ name = "Artigos"
 pageRef = "/artigos"
 weight = 1
 
-# [[languages.pt.menus.main]]
-# name = "Sobre"
-# pageRef = "/sobre.md"
-# weight = 2
+[[languages.pt.menus.main]]
+name = "Pesquisa"
+pageRef = "/pesquisa"
+weight = 2
 
 [[languages.pt.menus.main]]
 name = "RSS"
