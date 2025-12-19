@@ -11,6 +11,10 @@ dateFormat = "2006-01-02"
 [params.author]
 name = "Simplex"
 
+[markup]
+[markup.highlight]
+style = "github-dark"
+
 [taxonomies]
 palavra-chave = "palavras-chave"
 ano = "ano"
@@ -42,6 +46,10 @@ contentDir = "content"
 languageCode = "pt-BR"
 languageName = "Português"
 
+[languages.pt.pagination]
+disableAliases = false
+path = 'pagina'
+
 [[languages.pt.menus.main]]
 name = "Artigos"
 pageRef = "/artigos"
@@ -62,7 +70,6 @@ name = "GitHub"
 url = "https://github.com/osimplex"
 weight = 4
 
-# Image cache
 [caches]
 [caches.images]
 dir = ":cacheDir/images"

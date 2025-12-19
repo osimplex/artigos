@@ -1,0 +1,40 @@
+/* variables in root element */
+
+:root {
+  --font-family-main: "Bricolage Grotesque", sans-serif;
+  --font-weigth-main: 500;
+  --font-family-content: "Bricolage Grotesque", serif;
+  --font-weight-content: 500;
+  --font-family-summary: "Bricolage Grotesque", serif;
+  --font-weight-summary: 500;
+
+  --dim-color: #88888844;
+
+  --code-background-color: #0d1117;
+  --code-text-color: #e6edf0;
+}
+
+:root[color-scheme^='light'] {
+  --body-text-color: #222;
+  --body-background-color: #d4d3ce;
+
+  --primary-color: #285699;
+  --selection-color: #6a84ad;
+
+  --dim-opacity: 65%;
+
+  --quote-text-color: #595959;
+}
+
+:root[color-scheme^='dark'] {
+  --body-text-color: #f0efea;
+  --body-background-color: #222;
+
+  --primary-color: #6297e3;
+  --selection-color: #6a84ad;
+
+  --dim-opacity: 50%;
+
+  --quote-text-color: #a1a1a1;
+}
+
