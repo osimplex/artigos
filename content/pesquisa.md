@@ -6,6 +6,6 @@ indexable = false
 
 # Pesquisa
 
-Aqui tu podes pesquisar toda a base de artigos.
+Faça aqui sua busca pela base de artigos.
 
 {{< search >}}
