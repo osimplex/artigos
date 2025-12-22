@@ -11,7 +11,6 @@ dateFormat = "2006-01-02"
 [params.author]
 name = "Simplex"
 
-[markup]
 [markup.highlight]
 style = "github-dark"
 
@@ -43,7 +42,6 @@ showRelated = true
 countRelated = 3
 
 [languages.pt]
-contentDir = "content"
 languageCode = "pt-BR"
 languageName = "Português"
 
@@ -71,24 +69,23 @@ name = "GitHub"
 url = "https://github.com/osimplex"
 weight = 4
 
-[caches]
 [caches.images]
 dir = ":cacheDir/images"
 
-[outputFormats]
 [outputFormats.SearchIndex]
 mediaType = "application/json"
 baseName = "searchindex"
 isPlainText = true
 notAlternative = true
 
-[mediaTypes]
 [mediaTypes."application/json"]
 suffixes = ["json"]
 
 [outputs]
 home = ["html", "rss", "SearchIndex"]
+section = ['html', 'rss']
+taxonomy = ['html']
+term = ['html']
 
-[services]
 [services.rss]
 limit = 10
