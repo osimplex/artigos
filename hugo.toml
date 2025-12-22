@@ -27,6 +27,7 @@ weight = 100
 
 [params.rtwt]
 searchPath = "pesquisa"
+countPageItems = "15"
 
 [params.rtwt.side.home]
 sidePaneSticky = false
