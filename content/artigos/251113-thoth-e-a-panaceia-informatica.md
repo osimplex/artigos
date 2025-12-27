@@ -1,10 +1,10 @@
-+++
-title = "O mito de Thoth e a panacéia informática"
-date = "2025-11-13"
-palavras-chave = ["filosofia", "computacao", "platao", "llm", "educacao"]
-ano = ["2025"]
-featured = false
-+++
+---
+title: "O mito de Thoth e a panacéia informática"
+date: "2025-11-13"
+palavras-chave: ["filosofia", "computacao", "platao", "llm", "educacao"]
+ano: ["2025"]
+featured: false
+---
 
 Em alguma publicação perdida no buraco da memória de qualquer mídia social, carinhosamente chamado de _feed_, restando a pergunta se as publicações existem para serem devoradas por nós, ou pelo buraco da memória, li algo assim:
 

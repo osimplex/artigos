@@ -1,10 +1,10 @@
-+++
-title = "Usando soquetes Unix em um protoloco IPC baseado em JSON para controlar \"remotamente\" o mpv"
-date = "2020-04-14"
-palavras-chave = ["mpv", "controle", "lua", "shell", "soquete unix"]
-ano = ["2020"]
-featured = false
-+++
+---
+title: "Usando soquetes Unix em um protoloco IPC baseado em JSON para controlar \"remotamente\" o mpv"
+date: "2020-04-14"
+palavras-chave: ["mpv", "controle", "lua", "shell", "soquete unix"]
+ano: ["2020"]
+featured: false
+---
 
  popular recurso de execução de mídia, o MPV, fornece uma infinidade de recursos pouco conhecidos e explorados tanto nas inúmeras possibilidades de parametrização do funcionamento, como no recurso de extensividade através de _scripts_ escritos em Lua (linguagem de programação criada no Brasil).
 

@@ -1,10 +1,10 @@
-+++
-title = "Polimorfismo em Bash, ou script orientado a confusão"
-date = "2020-06-12"
-palavras-chave = ["polimorfismo", "shell", "pog"]
-ano = ["2020"]
-featured = false
-+++
+---
+title: "Polimorfismo em Bash, ou script orientado a confusão"
+date: "2020-06-12"
+palavras-chave: ["polimorfismo", "shell", "pog"]
+ano: ["2020"]
+featured: false
+---
 
 O recurso central a ser apresentado, brevemente, tem base na possibilidade de aninhamento de funções em Bash (declarar funções dentro do corpo de uma função). Será apresentada uma comparação, usando de força para caber a comparação, tentando facilitar o entendimento, com as interfaces do paradigma de orientação a objetos. A idéia neste artigo é uma automação doméstica para quem tem situações diferentes em diferentes estações de trabalho, aqui na questão do servidor de áudio e tocador de música.
 

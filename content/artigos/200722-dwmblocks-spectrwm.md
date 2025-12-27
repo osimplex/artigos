@@ -1,10 +1,10 @@
-+++
-title = "spectrwm e população do painel: para além do baraction.sh"
-date = "2020-07-22"
-palavras-chave = ["painel", "spectrwm", "liguagem C"]
-ano = ["2020"]
-featured = false
-+++
+---
+title: "spectrwm e população do painel: para além do baraction.sh"
+date: "2020-07-22"
+palavras-chave: ["painel", "spectrwm", "liguagem C"]
+ano: ["2020"]
+featured: false
+---
 
 Aqui será explorada, de maneira brevíssima, a possibilidade de uso de um programa em C para população do painel do gerenciador de janelas _spectrwm_, que, segundo o manual, suporta o uso de executáveis externos. O manual, ao descrever o elemento `+A` na parametrização de `bar_format`, diz que se trata de `output of the external script`, e, ao descrever o parâmetro `bar_action`: `external script that populates additional information in the status bar, such as battery life`.
 

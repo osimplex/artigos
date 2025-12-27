@@ -1,10 +1,10 @@
-+++
-title = "Proposta em Bash para uma implementação independente de janela transiente com o wmctrl"
-date = "2020-04-20"
-palavras-chave = ["xorg", "controle", "shell", "wmctrl"]
-ano = ["2020"]
-featured = false
-+++
+---
+title: "Proposta em Bash para uma implementação independente de janela transiente com o wmctrl"
+date: "2020-04-20"
+palavras-chave: ["xorg", "controle", "shell", "wmctrl"]
+ano: ["2020"]
+featured: false
+---
 
 Aqui forneceremos uma situação de entendimento um pouco mais exigente, uma vez que vai precisar que o leitor entenda uma série de detalhinhos importantes (que o autor tentará comentar), e uma visão, a visão com que tentou-se pensar ao redigir o que será apresentado mais adiante: componentes independentes, com comportamento e interfaces definidas, trabalhando de forma ordenada, cada um com sua devida responsabilidade.
 
