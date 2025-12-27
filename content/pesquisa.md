@@ -1,8 +1,8 @@
-+++
-title = 'Pesquisa'
-type = 'blank'
-indexable = false
-+++
+---
+title: "Pesquisa"
+type: "blank"
+indexable: false
+---
 
 # Pesquisa
 

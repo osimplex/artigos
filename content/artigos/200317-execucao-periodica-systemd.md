@@ -1,10 +1,10 @@
-+++
-title = "Execução periódica de tarefas com o SystemD"
-date = "2020-03-17"
-palavras-chave = ["systemd", "controle", "tarefas periodicas", "newsboat"]
-ano = ["2020"]
-featured = false
-+++
+---
+title: "Execução periódica de tarefas com o SystemD"
+date: "2020-03-17"
+palavras-chave: ["systemd", "controle", "tarefas periodicas", "newsboat"]
+ano: ["2020"]
+featured: false
+---
 
 Uma publicação muito ligeira para quem deseja usar de um dos (sim, há outros) recursos disponíveis para um sistema operacional com _Linux_, criado para possibilitar a realização autônoma de tarefas num dado momento cronológico (do relógio).
 

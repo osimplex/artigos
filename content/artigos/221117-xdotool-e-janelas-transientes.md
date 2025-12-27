@@ -1,10 +1,10 @@
-+++
-title = "Proposta em Bash para uma reimplementação de janela transiente com o xdotool"
-date = "2022-11-17"
-palavras-chave = ["xorg", "controle", "shell", "xdotool"]
-ano = ["2022"]
-featured = false
-+++
+---
+title: "Proposta em Bash para uma reimplementação de janela transiente com o xdotool"
+date: "2022-11-17"
+palavras-chave: ["xorg", "controle", "shell", "xdotool"]
+ano: ["2022"]
+featured: false
+---
 
 Este artigo é uma resposta para a proposta publicada em 20 de abril de 2020, de implementação de janela transiente em Bash usando o utilitário wmctrl para interação com o gerenciador de janelas através da definições no servidor gráfico, o _Xorg_.
 

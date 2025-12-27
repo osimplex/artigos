@@ -1,10 +1,10 @@
-+++
-title = "Sxhkd"
-date = "2020-02-10"
-palavras-chave = ["sxhkd", "atalhos", "xorg"]
-ano = ["2020"]
-featured = false
-+++
+---
+title: "Sxhkd"
+date: "2020-02-10"
+palavras-chave: ["sxhkd", "atalhos", "xorg"]
+ano: ["2020"]
+featured: false
+---
 
 O Sxhkd (_Simplex X Hot Key Daemon_, ou dæmon simples para teclas de atalho), criado para uso conjunto com o gerenciados de janelas (ou WM, de _Window Manager_) BSPWM, oferece um modo simples de configurar ações para determinadas combinações de teclas em qualquer ambiente que está sobre servidor gráfico X.org.
 

@@ -1,10 +1,10 @@
-+++
-title = "Tmux"
-date = "2020-02-05"
-palavras-chave = ["tmux", "terminal", "multiplexador"]
-ano = ["2020"]
-featured = false
-+++
+---
+title: "Tmux"
+date: "2020-02-05"
+palavras-chave: ["tmux", "terminal", "multiplexador"]
+ano: ["2020"]
+featured: false
+---
 
 O tmux oferece uma proposta de algo no estilo arquitetural de componentes independentes para o terminal, somado similar ao gerenciamento de janelas para _GUI_, isso através da divisão da tela em multiplas insâncias independentes do shell.
 

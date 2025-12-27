@@ -1,10 +1,10 @@
-+++
-title = "Gerenciador de senhas Pass"
-date = "2020-02-18"
-palavras-chave = ["pass", "segurança", "senhas", "shell"]
-ano = ["2020"]
-featured = false
-+++
+---
+title: "Gerenciador de senhas Pass"
+date: "2020-02-18"
+palavras-chave: ["pass", "segurança", "senhas", "shell"]
+ano: ["2020"]
+featured: false
+---
 
 Aspectos de segurança apresentam questões de alta complexidade, qualque andar é sobre ovos, e sobre toda bola há muitas mãos e dedos. Quando se trata de protocolos de segurança, um dos aspectos é relativo aos métodos de autenticação, onde um é relativamente popular, que chamaremos para os interesses desta pequena publicação de apresentação da ferramenta `pass`, baseada em senha, ou palavra passe, delimitando isso para o uso da palavra no ano de 2020, onde a palavra passe é definida arbitrariamente por uma parte, e em seguida armazenada (sem o formato em conta) de modo que para cada ação que exija autenticação, deve ser apresentada a palavra passe anteriormente definida com exatidão.
 

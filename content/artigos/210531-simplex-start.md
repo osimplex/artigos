@@ -1,10 +1,10 @@
-+++
-title = "O nascer do sol multicor, o bailar, ou: o início da sessão gráfica"
-date = "2021-05-31"
-palavras-chave = ["xorg", "startx", "shell"]
-ano = ["2021"]
-featured = true
-+++
+---
+title: "O nascer do sol multicor, o bailar, ou: o início da sessão gráfica"
+date: "2021-05-31"
+palavras-chave: ["xorg", "startx", "shell"]
+ano: ["2021"]
+featured: true
+---
 
 Este artigo foi construído para demonstrar uma construção realizada no Arch Linux, funcional em 29 de maio de 2021 (caso seja necessário a intervenção com [ALA](https://wiki.archlinux.org/title/Arch_Linux_Archive) no futuro para a reprodução do experimento).
 
