@@ -22,11 +22,11 @@ Tão interessante quanto a realidade do descrédito da teoria é o outro lado da
 
 "Em todos esses anos" já me deparei com situações que prefiro não detalhar. Para dar uma noção, recupero o questionamento de uma outra área: da onde que veio a idéia de que colocar uma garrafa d'água em cima de um "relógio de luz" reduz a conta de energia? Da doutrina sobre eletricidade é que não foi. O exemplo até pode parecer extremo, mas está no mesmo nível de crenças com as quais já tive de lidar. Em situações profissionais.
 
-E não é por acaso. Uma grande fonte de superstições, crenças de toda sorte e mitologias, no sentido moderno da palavra, é a experiência desprovida de critério. Isso é um ponto pacífico.
+E não é por acaso. Uma grande fonte de superstições, de crenças de toda sorte e de mitologias, no sentido moderno da palavra, é a experiência desprovida de critério. Isso é um ponto pacífico.
 
 ### O milagre da ciência e da computação
 
-Nenhum dos pontos acima ilustrados acima constitui por si fonte de grande indignação. Mas há um elemento que torna as coisas diferentes na computação: a natureza dos objetos de conhecimento e de trabalho.
+Nenhum dos pontos acima ilustrados constitui por si fonte de grande indignação. Mas há um elemento que torna as coisas diferentes na computação: a natureza dos objetos de conhecimento e de trabalho.
 
 Ao estudar qualquer realidade material nos deparamos com a seguinte situação: por mais detalhado que seja o nosso modelo mental de algo, ele jamais será plenamente correspondente à realidade, será bastante contingente. E isso promoveu um debate milenar sobre como podem ser compreendidas e descritas as realidades naturais de forma coerente e aproveitável, considerando a realidade contingente do conhecimento, sendo um capítulo mais próximo de nós a elaboração do chamado _método científico_.
 
