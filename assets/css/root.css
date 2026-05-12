@@ -19,6 +19,7 @@
   --body-background-color: #d4d3ce;
 
   --primary-color: #285699;
+  --hover-dim-color: #000000;
   --selection-color: #6a84ad;
 
   --dim-opacity: 65%;
@@ -31,6 +32,7 @@
   --body-background-color: #222;
 
   --primary-color: #6297e3;
+  --hover-dim-color: #ffffff;
   --selection-color: #6a84ad;
 
   --dim-opacity: 50%;
