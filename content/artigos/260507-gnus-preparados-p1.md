@@ -63,7 +63,7 @@ Um descendente "vivo" do _Unix_ que temos disponível para utilizar hoje em dia 
 
 De tempos em tempos aparece a questão de se é próprio dizer que um Arch ou um Debian seria um tipo de "_Linux_", ou distribuição de "_Linux_".
 
-Realizada a etapa de definir a [idéia de sistema operacional]({{< relref "260107-gnus-preparados-p1#a-idéia-de-sistema-operacional" >}}), com as quatro definições do que pode ser um sistema operacional, podemos dizer com segurança onde se encaixa o Linux: na primeira definição. Não por acaso o _site_ em que o Linux é disponibilizado se chama [kernel.org](https://kernel.org/), e está escrito em letras garrafais na _homepage_ o seguinte: _The Linux Kernel Archives_.
+Realizada a etapa de definir a [idéia de sistema operacional]({{< relref "260507-gnus-preparados-p1#a-idéia-de-sistema-operacional" >}}), com as quatro definições do que pode ser um sistema operacional, podemos dizer com segurança onde se encaixa o Linux: na primeira definição. Não por acaso o _site_ em que o Linux é disponibilizado se chama [kernel.org](https://kernel.org/), e está escrito em letras garrafais na _homepage_ o seguinte: _The Linux Kernel Archives_.
 
 Desta forma é seguro afirmar que um Debian instalado não _é_ um _Linux_, mas que, se for o caso, _tem_ um _Linux_. Porque pode sequer ter em algumas ocasiões. Existe instalação de Debian com _kernel FreeBSD_, e que não constitui um sistema operacional _FreeBSD_. Da mesma forma que o _Android_ não _é_ um _Linux_, _tem_ um _Linux_, o utiliza como _kernel_ junto de outros diversos componentes específicos do para constituir um sistema operacional.
 
@@ -77,13 +77,13 @@ Aparte a querela, para os interesses dessa série de artigos não deixo de notar
 
 Ainda que seja possível chamar o _Linux_ de sistema operacional, conforme o que já foi apresentado até aqui, a definição de sistema operacional em que o _Linux_ se encaixa não faz sentido para o contexto desta série de artigos, que não vai focar em minúcias de programação em baixo nível ou produção de sistemas embarcados com _Linux_. 
 
-O mínimo conceito de sistema operacional adequado para o contexto desta série é de _sistema operacional Unix-like_, que adere à 3ª definição descrita na [idéia de sistema operacional]({{< relref "260107-gnus-preparados-p1#a-idéia-de-sistema-operacional" >}}). Assim sendo, _Linux_ é somente o _kernel_ e GNU (porque esta é a escolha de trabalho da série) é o restante do sistema operacional. Por vezes também chamaremos o sistema operacional pelo nome da distribuição, como Arch ou Debian, quando usarmos o termo em sentido ainda mais amplo, avançando para a 4ª definição.
+O mínimo conceito de sistema operacional adequado para o contexto desta série é de _sistema operacional Unix-like_, que adere à 3ª definição descrita na [idéia de sistema operacional]({{< relref "260507-gnus-preparados-p1#a-idéia-de-sistema-operacional" >}}). Assim sendo, _Linux_ é somente o _kernel_ e GNU (porque esta é a escolha de trabalho da série) é o restante do sistema operacional. Por vezes também chamaremos o sistema operacional pelo nome da distribuição, como Arch ou Debian, quando usarmos o termo em sentido ainda mais amplo, avançando para a 4ª definição.
 
 ## Um sistema operacional básico 
 
 Estabelecido o conceito de sistema operacional _Unix-like_, passemos aos componentes. Já vimos que são quatro. Agora vamos dar algum detalhe do que seria cada um dos quatro.
 
-Do _kernel_ já falamos, ele cumpre as funções da definição mais estrita de sistema operacional descrita na [idéia de sistema operacional]({{< relref "260107-gnus-preparados-p1#a-idéia-de-sistema-operacional" >}}). Podemos adicionar o detalhe há uma camada de interface para que aplicações interajam com o _kernel_, essa interface se dá pelas _chamadas de sistema_ (do inglês _system calls_).
+Do _kernel_ já falamos, ele cumpre as funções da definição mais estrita de sistema operacional descrita na [idéia de sistema operacional]({{< relref "260507-gnus-preparados-p1#a-idéia-de-sistema-operacional" >}}). Podemos adicionar o detalhe há uma camada de interface para que aplicações interajam com o _kernel_, essa interface se dá pelas _chamadas de sistema_ (do inglês _system calls_).
 
 Biblioteca C padrão, ou _libc_ para usar o termo mais curto, não é algo que se discutirá nesta série, mas é um conjunto de funções de uso comum elaborado sobre a estrutura das chamadas de sistema disponibilizado para o uso de aplicações escritas em C, ou que possam utilizar de bibliotecas em liguagem C. É uma outra forma das aplicações interagirem com o _kernel_, e o programador de cada aplicação pode optar por usar funções da _libc_ ou chamadas de sistema, uma coisa não exclui a outra.
 
@@ -115,7 +115,7 @@ Para prosseguirmos o estudo adotaremos o Arch como distribuição por critério 
 
 Vimos a definição de _sistema operacional Unix-like_ anteriormente. Ao lidar com distribuições teremos uma outra idéia construída sobre esta que é a _instalação básica_, que consiste no menor conjunto de pacotes que definem a instalação de uma dada distribuição. Pode-se entender que esse conjunto frequentemente vai um pouco além dos quatro elementos de um sistema _Unix-like_, incorporando pacotes que servem à obtenção de outros pacotes da distribuição por exemplo. 
 
-Se retornarmos à [idéia de sistema operacional]({{< relref "260107-gnus-preparados-p1#a-idéia-de-sistema-operacional" >}}), por mais que uma _instalação básica_ tenha relativamente pouca coisa comparada com o sistema montado para "uso civil ordinário", tocar um negócio, fazer trabalhos escolares ou acadêmicos etc, o todo pode ser encarado como um _sistema operacional_ aderente com a 3ª definição apontando para a 4ª.
+Se retornarmos à [idéia de sistema operacional]({{< relref "260507-gnus-preparados-p1#a-idéia-de-sistema-operacional" >}}), por mais que uma _instalação básica_ tenha relativamente pouca coisa comparada com o sistema montado para "uso civil ordinário", tocar um negócio, fazer trabalhos escolares ou acadêmicos etc, o todo pode ser encarado como um _sistema operacional_ aderente com a 3ª definição apontando para a 4ª.
 
 No Arch, a obtenção do mínimo conjunto de pacotes que define uma instalação básica se dá com a instalação do pacote `base`. Podemos [verificar a relação de componentes](https://archlinux.org/packages/core/any/base/) que define a instalação básica hoje, e são 28 no total:
 
