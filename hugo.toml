@@ -42,8 +42,8 @@ showRelated = true
 countRelated = 3
 
 [languages.pt]
-languageCode = "pt-BR"
-languageName = "Português"
+locale = "pt-BR"
+label = "Português"
 
 [languages.pt.pagination]
 disableAliases = false
