@@ -73,7 +73,7 @@ A querela do nome se deve ao detalhe de que, normalmente, o nome do _kernel_ nã
 
 ### O devido nome das coisas
 
-Aparte a querela, para os interesses dessa série de artigos não deixo de notar que a insistência no nome do _kernel_ para nomear o sistema operacional é uma imprecisão que pode pode enevoar o pensamento. Basta frequentar um fórum de entusiastas e aguardar que logo aparece quem se queixe de algo em que "o _Linux_" não funciona como deveria, e, quando tu vais verificar o caso, o _Linux_ está funcionando muito bem, mas a pessoa configurou mal o comportamento de uma aplicação qualquer. 
+Aparte a querela, para os interesses dessa série de artigos não deixo de notar que a insistência no nome do _kernel_ para nomear o sistema operacional é uma imprecisão que pode enevoar o pensamento. Basta frequentar um fórum de entusiastas e aguardar que logo aparece quem se queixe de algo em que "o _Linux_" não funciona como deveria, e, quando tu vais verificar o caso, o _Linux_ está funcionando muito bem, mas a pessoa configurou mal o comportamento de uma aplicação qualquer. 
 
 Ainda que seja possível chamar o _Linux_ de sistema operacional, conforme o que já foi apresentado até aqui, a definição de sistema operacional em que o _Linux_ se encaixa não faz sentido para o contexto desta série de artigos, que não vai focar em minúcias de programação em baixo nível ou produção de sistemas embarcados com _Linux_. 
 
@@ -99,7 +99,7 @@ Distribuição é uma espécie de projeto em que se toma _software_ livre produz
 
 Mas quando se fala em distribuição geralmente o assunto não é distribuição de _kernel_, mas de sistemas operacionais.
 
-Uma distribuição de sistema operacional é um projeto em que se toma componentes de sistema operacional produzidos por outras pessoas ou organizações, e se realiza todo um trabalho para distribuir estes componentes de modo que possam ser somados em um computador, ou instalados, e esta soma resulte em um sistema operacional que funciona. Essas poucas palavras estão longe de dizer o quanto isso dá trabalho, porque para isso é necessário alinhar algo na ordem de milhares de peças de _software_ de uma forma que funcionem juntas e em harmonia.
+Uma distribuição de sistema operacional é um projeto em que se toma componentes de sistema operacional produzidos por outras pessoas ou organizações, e se realiza todo um trabalho para distribuir estes componentes de modo que possam ser somados em um computador, ou instalados, e esta soma resulte em um sistema operacional que funcione. Essas poucas palavras estão longe de dizer o quanto isso dá trabalho, porque para isso é necessário alinhar algo na ordem de dezenas de milhares de peças de _software_ de uma forma que funcionem juntas e em harmonia.
 
 Esse fenômeno é bastante característico do ramo GNU/Linux justamente porque veio com as iniciativas de distribuir sistemas constituídos da soma do _kernel Linux_ com os diversos componentes do sistema operacional GNU (_libc_, _shell_ e utilitários). Isso vem desde a década de 90, após a disponibilização do _kernel Linux_ sob uma licença livre, quando passou a fazer sentido somá-lo ao GNU para então produzir um sistema operacional 100% livre.
 
