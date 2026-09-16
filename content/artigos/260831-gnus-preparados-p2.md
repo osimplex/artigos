@@ -195,13 +195,13 @@ Em termos estritos, para a licença ser de _software_ livre é necessário somen
 
 O direito autoral aplicado ao _software_, mais especificamente o elemento econômico do direito, é a base para o cerceamento de liberdades do utilizador. Já comentamos, o estado de "natureza" da obra autoral é _todos os direitos reservados_, e pelo licenciamento se dá o negócio do _software_ privativo, em que se concede a mínima possibilidade necessária ao _usuário_ para que a obra cumpra alguma função, estabelecendo uma relação de dependência entre fornecedor e _usuário_. E a operacionalização do _software_ livre, isto é, a concessão de liberdades, se dá na mesma base do direito autoral; este é o _hack_.
 
-Recordando o que apresentamos sobre [o direito e a liberdade]({{< relref "260831-gnus-preparados-p2#o-direito-e-a-liberdade" >}}), a liberdade, como função de estrutura, se dá em função do licenciamento. Daí, ao obter uma obra sob licença livre, gozamos de plenitude de liberdade de _software_. Mas a matéria legal não é simples de lidar, então temos uma mediação da própria FSF, que analisou e analisa o texto de diversas licenças de _software_ para verificar se concedem adequadamente as liberdades, além de propor licenças próprias como a família GPL.
+Recordando [o direito e a liberdade]({{< relref "260831-gnus-preparados-p2#o-direito-e-a-liberdade" >}}): a liberdade, como função de estrutura, se dá em função do licenciamento. Daí, ao obter uma obra sob licença livre, gozamos de plenitude de liberdade de _software_. Mas a matéria legal não é simples de lidar, então temos uma mediação da própria FSF, que analisou e analisa o texto de diversas licenças de _software_ para verificar se concedem adequadamente as liberdades, além de propor licenças próprias como a família GPL.
 
 Podemos verificar uma lista de licenças comentada pela FSF [aqui](https://www.gnu.org/licenses/license-list.html).
 
 ### O parâmetro de liberdade suficiente
 
-Mantemos [nossa posição]({{< relref "260831-gnus-preparados-p2#o-direito-e-a-liberdade" >}}) de que estabelecer e limitar a liberdade é um só e o mesmo ato, de acordo com a função de estrutura. E esta posição exige afirmar de que uma licença privativa, uma EULA, pode estabelecer certo grau de liberdade. Um modelo de licenciamento _freeware_, autorizando uso não comercial, sem acesso a código fonte etc estabelece certo grau de liberdade. Sendo solicitado um pagamento pela licença de uso, com tais ou quais limites, idem.
+Mantemos [nossa posição]({{< relref "260831-gnus-preparados-p2#o-direito-e-a-liberdade" >}}), segundo a qual estabelecer e limitar a liberdade é um só e o mesmo ato, de acordo com a função de estrutura. E esta posição exige afirmar de que uma licença privativa, uma EULA, pode estabelecer certo grau de liberdade. Um modelo de licenciamento _freeware_, autorizando uso não comercial, sem acesso a código fonte etc estabelece certo grau de liberdade. Sendo solicitado um pagamento pela licença de uso, com tais ou quais limites, idem.
 
 E aí entra o papel da FSF, do Richard Stallman. Vários dirão que é um papel "ideológico", faltando fornecer qual definição de ideologia estão utilizando entre as inúmeras disponíveis. Aqui usaremos uma outra formulação: a proposta de um parâmetro de engenharia.
 
@@ -211,9 +211,9 @@ Acolher ou afastar esse parâmetro é uma decisão particular, e, naturalmente, 
 
 ### Projeto GNU
 
-O _hack_ jurídico do _software_ livre tem uma iniciativa irmã, o chamado [Projeto GNU](https://www.gnu.org).
+Sob o _hack_ legal do _software_ livre, aplicando uma estrutura de alta abstração social, remota, estabelecida e garantida pelos meios de coerção de um Estado-Nação, o direito autoral, ha a interação social concreta, próxima, entre seres de carne e osso, o [vínculo]({{< relref "260831-gnus-preparados-p2#o-vínculo-e-o-direito" >}}). Essa virada do remoto para o próximo produziu uma consequência: o [Projeto GNU](https://www.gnu.org).
 
-O projeto consistia, e consiste, num [sistema operacional _Unix-like_]({{< relref "260507-gnus-preparados-p1#o-paradigma-de-sistema-operacional" >}}) 100% livre, ou que respeita a liberdade dos utilizadores. Esta questão do respeito às liberdades, especificamente às quatro liberdades essenciais _do utilizador_, que já foram apresentadas, é o ponto nevrálgico. Tudo é feito sob esta premissa que é materialmente estabelecida na forma do direito aplicando o licenciamento GPL.
+O projeto consistia, e consiste, num [sistema operacional _Unix-like_]({{< relref "260507-gnus-preparados-p1#o-paradigma-de-sistema-operacional" >}}) 100% livre, ou que respeita a liberdade dos utilizadores. Esta questão do respeito às liberdades, especificamente às quatro liberdades essenciais _do utilizador_, que já foram apresentadas, é o ponto nevrálgico. Tudo é feito sob esta premissa que é materialmente estabelecida na forma do direito aplicando o licenciamento GPL, e que media a possibilidade social de participação e colaboração.
 
 GNU é um acrônimo recursivo que significa "_GNU's not Unix_" (GNU não é Unix). Unix era um sistema operacional não-livre.
 
@@ -257,7 +257,7 @@ E também existem peças e situações rejeitadas por ambas. Uma delas é a situ
 
 Podendo dizer uma coisa ou outra, citar _software_ livre e do código aberto, é justo aplicar os termos com consciência e fidelidade às linhas de pensamento. Pessoalmente, dificilmente vou classificar uma peça de _software_ que use e aprecie como de código aberto, coincidindo a aceitação de licenciamento aplicado, porque o que me importa não é vender um modo de produção no seguimento corporativo, mas as liberdades, a relação de respeito, a cultura _hacker_. Mas não é como se isso fosse uma _filosofia_ (em sentido bem amplo) e a posição da OSI não fosse, bem pelo contrário, porque o pragmatismo também é uma posição, ou uma escola, filosófica. Cada qual com os próprios valores.
 
-## Tópicos
+## Tópicos associados
 
 ### _Creative Commons_
 
@@ -359,6 +359,6 @@ O artigo foi longo, mas o assunto é muito maior. E tão grande quanto carregado
 
 Essa questão de liberdade e licenciamento pode não ser tão valorizada por aí, mas se não fosse por isso não haveria esta série. Seja o leitor da linha que for, que valoriza antes o modo de produção de _software_ ou a liberdade na computação, isso foi viabilizado pelo _hack_ legal que nos legou uma fabulosa subversão do direito autoral.
 
-Com o _hack_ legal, diversas pessoas não procuraram instituições de Estado para suspender a exclusividade estabelecida pelo direito autoral, e tampouco se renderam ao fatalismo e submeteram-se ao arbítrio corporativo como que numa posição do avestruz, mas simplesmente se reuniram e se empenharam para juntos parir a própria liberdade. Para si e tantos outros que quisessem, e quiseram, juntar-se. Não nos esqueçamos deste fundamento. Mais, dando valor ao legado daqueles que nos antecederam, juntemo-nos a eles, porque [o vínculo]({{< relref "260831-gnus-preparados-p2/#o-vínculo" >}}) é o fundamento último, e já discutimos que o indivíduo não é a menor unidade de uma sociedade considerando capacidade de reprodução.
+Com o _hack_ legal, diversas pessoas não procuraram instituições de Estado para suspender a exclusividade estabelecida pelo direito autoral, e tampouco se renderam ao fatalismo e renderam-se ao arbítrio corporativo, mas reuniram-se e empenharam-se para juntos parir a própria liberdade. Para si e tantos outros que quisessem, e quiseram, juntar-se. Não nos esqueçamos deste fundamento. Mais, dando valor ao legado daqueles que nos antecederam, juntemo-nos a eles, porque [o vínculo]({{< relref "260831-gnus-preparados-p2/#o-vínculo" >}}) é o fundamento último, e já discutimos que o indivíduo não é a menor unidade de uma sociedade considerando capacidade de reprodução.
 
-Nos próximos artigos continuaremos, no gozo da plenitude das liberdades de _software_, o caminho para nosso domínio intelectual do sistema operacional GNU.
+Mas, dada a liberdade de _software_, liberdade não implica capacidade efetiva de exercício da liberdade. Então continuaremos nos próximos artigos o caminho para nosso domínio intelectual do sistema operacional GNU.
