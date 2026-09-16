@@ -9,7 +9,7 @@ not_found_home_link: Voltar ao Início
 
 # Footer
 scroll_top: Voltar ao topo
-footer: Feito com o tema {{ .ThemeAnchor }} para {{ .HugoAnchor }} <br/> Imagens de Gordon Johnson e OpenClipart-Vectors do portal Pixabay
+footer: Feito com o tema {{ .ThemeAnchor }} para {{ .HugoAnchor }} <br/> E imagem de Gordon Johnson do portal Pixabay
 
 # Home
 featured_posts: Em Destaque
