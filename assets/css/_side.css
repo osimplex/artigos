@@ -1,0 +1,19 @@
+/* side pane internal scroll for large TOCs (>1128px).
+   below 1128px the side pane is hidden and the drawer handles the content. */
+@media (min-width: 1129px) {
+  /* extra class on the ancestor raises specificity above the theme's
+     "aside#side-pane { overflow: hidden }", which is concatenated later. */
+  body aside#side-pane {
+    max-height: calc(82vh - 2rem);
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--dim-color, rgba(136, 136, 136, 0.4)) transparent;
+  }
+  body aside#side-pane::-webkit-scrollbar {
+    width: 6px;
+  }
+  body aside#side-pane::-webkit-scrollbar-thumb {
+    background: var(--dim-color, rgba(136, 136, 136, 0.4));
+    border-radius: 3px;
+  }
+}
