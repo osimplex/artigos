@@ -1,0 +1,25 @@
+<div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="{{- absURL "" -}}" style="color: inherit;">{{- site.Title -}}</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+        {{- partial "menu.html" (dict "menuID" "main" "page" .) -}}
+      </div>
+    </div>
+    <a id="nav-dropdown-button" href="#">
+      {{- partial "svg/menu.svg" -}}
+    </a>
+    <div id="nav-menu">
+      {{- partial "menu.html" (dict "menuID" "main" "page" .) -}}
+    </div>
+    <label id="side-drawer-link" for="side-drawer-toggle" tabindex="0" aria-label="Open side panel">
+      {{- partial "svg/drawer.svg" -}}
+    </label>
+    <a id="theme-switcher" href="#">
+      {{- partial "svg/sun.svg" -}}
+      {{- partial "svg/moon.svg" -}}
+    </a>
+  </div>
+</div>

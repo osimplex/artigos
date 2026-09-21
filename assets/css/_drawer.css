@@ -1,0 +1,147 @@
+/* Drawer for small screens (no JS, checkbox hack):
+   mirrors aside#side-pane styling from _main.css */
+
+#side-drawer-toggle {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+#side-drawer-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: var(--body-text-color);
+  opacity: 0.4;
+  z-index: 900;
+  display: none;
+}
+
+#side-drawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100dvh;
+  width: min(320px, 85vw);
+  overflow-y: auto;
+  padding: 1rem;
+  background-color: var(--body-background-color);
+  border-left: 1px var(--dim-color) solid;
+  transition: transform 200ms ease-in;
+  transform: translateX(100%);
+  z-index: 1000;
+}
+
+#side-drawer-toggle:checked ~ #side-drawer-overlay {
+  display: block;
+}
+
+#side-drawer-toggle:checked ~ #side-drawer {
+  transform: translateX(0);
+}
+
+.side-drawer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px var(--dim-color) solid;
+  padding-bottom: .5rem;
+  font-weight: bold;
+}
+
+.side-drawer-header label {
+  color: var(--body-text-color);
+  cursor: pointer;
+}
+
+.side-drawer-header label > svg {
+  height: 20px;
+  width: 20px;
+}
+
+.side-drawer-body {
+  padding-bottom: 1rem;
+}
+
+.side-drawer-body h3 {
+  margin-bottom: .25rem;
+}
+
+/* keep drawer content out of sticky/hidden quirks */
+#side-drawer aside.side-sticky {
+  position: static;
+}
+
+/* merge main nav into drawer; hide theme's JS dropdown button */
+@media (max-width: 1128px) {
+  a#nav-dropdown-button,
+  #nav-dropdown-button i,
+  #nav-dropdown-button svg {
+    display: none !important;
+  }
+}
+
+.side-drawer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+  border-bottom: 1px var(--dim-color) solid;
+}
+
+.side-drawer-nav ul {
+  gap: 0.25rem 1.25rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.side-drawer-nav li {
+  padding: 0;
+}
+
+/* fake nav-menu link toggle for the tablet band (768-1128px):
+   the header keeps its menu, the drawer carries side-pane content only. */
+#side-drawer-link {
+  display: none;
+  cursor: pointer;
+  color: var(--primary-color);
+  transition: color 80ms;
+  text-decoration: none;
+  line-height: 35px;
+  /* icon trigger: size to theme-switcher icons, inherit color like theme links */
+  & > svg { width: 22px; height: 22px; display: block; }
+  margin: 0 .5rem;
+  font-size: 14px;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 769px) and (max-width: 1128px) {
+  #side-drawer-link { display: unset; }
+  /* nav links already visible in the header — drawer shows side content only */
+  .side-drawer-nav { display: none; }
+}
+
+@media (max-width: 768px) {
+  #side-drawer-link { display: unset; }
+}
+
+#side-drawer-link:hover {
+  color: color-mix(in lab, var(--primary-color) 60%, var(--hover-dim-color) 40%);
+}
+
+#side-drawer-link:focus-visible {
+  outline: 2px solid var(--body-text-color);
+  outline-offset: 2px;
+}
+
+/* drawer title by breakpoint — ties to the same 1128/768px constants above:
+   ≤768px the drawer IS the navigation → "Menu";
+   768–1128px the drawer is the side-content panel opened by "Sumário". */
+.drawer-title-menu { display: none; }
+.drawer-title-summary { display: none; }
+@media (max-width: 768px) {
+  .drawer-title-menu { display: inline; }
+}
+@media (min-width: 769px) and (max-width: 1128px) {
+  .drawer-title-summary { display: inline; }
+}

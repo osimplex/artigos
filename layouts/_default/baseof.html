@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.Lang }}" dir="ltr">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header">
+      {{- partial "header.html" . -}}
+    </header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content">
+          {{- block "main" . -}}{{- end -}}
+        </main>
+        <footer id="main-footer">
+          {{- partial "footer.html" . -}}
+        </footer>
+      </div>
+      {{- if (and (default true .Params.rtwt.sidePane) site.Params.rtwt.sidePane) -}}
+        {{- block "side" . -}}{{- end -}}
+      {{- end -}}
+      {{- partial "side/drawer.html" . -}}
+    </div>
+  </div>
+</body>
+</html>
