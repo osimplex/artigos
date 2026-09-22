@@ -1,8 +1,10 @@
 ---
 title: "Proposta em Bash para uma reimplementação de janela transiente com o xdotool"
 date: "2022-11-17"
-palavras-chave: ["xorg", "controle", "shell", "xdotool"]
-ano: ["2022"]
+palavras-chave: [xdotool, x11, gerenciamento-de-janelas, janelas-transientes]
+categoria: [implementação]
+rubrica: ["Matrizes de luz"]
+ano: [2022]
 featured: false
 ---
 

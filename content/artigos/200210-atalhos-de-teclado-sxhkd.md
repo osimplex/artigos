@@ -1,8 +1,10 @@
 ---
 title: "Sxhkd"
 date: "2020-02-10"
-palavras-chave: ["sxhkd", "atalhos", "xorg"]
-ano: ["2020"]
+palavras-chave: [sxhkd, atalhos-de-teclado, x11, composição]
+categoria: [guia]
+rubrica: ["Cortejo de utilidades"]
+ano: [2020]
 featured: false
 ---
 

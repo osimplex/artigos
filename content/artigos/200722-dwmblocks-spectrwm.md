@@ -1,8 +1,10 @@
 ---
 title: "spectrwm e população do painel: para além do baraction.sh"
 date: "2020-07-22"
-palavras-chave: ["painel", "spectrwm", "liguagem C"]
-ano: ["2020"]
+palavras-chave: [dwmblocks, spectrwm, gerenciador-de-janelas, x11, composição]
+categoria: [implementação]
+rubrica: ["Matrizes de luz"]
+ano: [2020]
 featured: false
 ---
 
@@ -25,10 +27,10 @@ Apesar do `dwmblocks`, por ser criado para uso com o `dwm`, normalmente enviar a
 ```c
 void pstdout()
 {
-	if (!getstatus(statusstr[0], statusstr[1]))//Only write out if text has changed.
-		return;
-	printf("%s\n",statusstr[0]);
-	fflush(stdout);
+    if (!getstatus(statusstr[0], statusstr[1]))//Only write out if text has changed.
+        return;
+    printf("%s\n",statusstr[0]);
+    fflush(stdout);
 }
 ```
 
@@ -37,16 +39,16 @@ Para usar este recurso é necessário executar o binário com `$ dwmblocks -p`, 
 ```c
 int main(int argc, char** argv)
 {
-	for(int i = 0; i < argc; i++)
-	{
-		if (!strcmp("-d",argv[i]))
-			delim = argv[++i][0];
-		else if(!strcmp("-p",argv[i]))
-			writestatus = pstdout;
-	}
-	signal(SIGTERM, termhandler);
-	signal(SIGINT, termhandler);
-	statusloop();
+    for(int i = 0; i < argc; i++)
+    {
+        if (!strcmp("-d",argv[i]))
+            delim = argv[++i][0];
+        else if(!strcmp("-p",argv[i]))
+            writestatus = pstdout;
+    }
+    signal(SIGTERM, termhandler);
+    signal(SIGINT, termhandler);
+    statusloop();
 }
 ```
 

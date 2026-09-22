@@ -1,8 +1,10 @@
 ---
 title: "Polimorfismo em Bash, ou script orientado a confusão"
 date: "2020-06-12"
-palavras-chave: ["polimorfismo", "shell", "pog"]
-ano: ["2020"]
+palavras-chave: [bash, abstração, polimorfismo, interfaces, teoria-e-prática]
+categoria: [ensaio-técnico]
+rubrica: ["Abordagem de enlace"]
+ano: [2020]
 featured: false
 ---
 

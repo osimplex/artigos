@@ -1,8 +1,10 @@
 ---
 title: "O ano do GNU/Linux no meu desktop"
 date: "2026-01-01"
-palavras-chave: ["computacao", "linux", "construcao", "controle"]
-ano: ["2026"]
+palavras-chave: [gnu-linux, linux-no-desktop, computação-pessoal, crítica-tecnológica]
+categoria: [ensaio]
+rubrica: ["Prosa livre"]
+ano: [2026]
 featured: false
 ---
 
@@ -50,7 +52,7 @@ A migração aconteceu nos primeiros dias de 2018, este que pode ser considerado
 
 Saindo do _Windows_, e diante do que conheci nos canais de divulgação, não estava trocando de sistema operacional, em certo sentido estava trocando de planeta. Só que não era uma questão se teria que me esforçar nessa mudança, mas se as tensões acumuladas fariam parte da nova realidade. Não adianta trocar "seis" por "meia dúzia". Esforço é natural para tudo nessa vida, não é verdade?
 
-Os indícios não poderiam ser melhores. Se pudesse resumir em uma palavra o que buscava nessa jornada, essa palavra seria _controle_. E a administração de um sistema operacional _Unix-like_ era exatamente o que queria, sem saber até então que queria. Mais adiante percebi como essencial _para o propósito que almejava_ o fundamento das [quatro liberdades essenciais que definem o _software_ livre](https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms). 
+Os indícios não poderiam ser melhores. Se pudesse resumir em uma palavra o que buscava nessa jornada, essa palavra seria _controle_. E a administração de um sistema operacional _Unix-like_ era exatamente o que queria, sem saber até então que queria. Mais adiante percebi como essencial _para o propósito que almejava_ o fundamento das [quatro liberdades essenciais que definem o _software_ livre](https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms).
 
 Mas, além do _controle_, haviam os quesitos de integridade do sistema operacional através do tempo, e a qualidade da administração do sistema.
 

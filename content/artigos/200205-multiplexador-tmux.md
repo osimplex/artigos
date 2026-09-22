@@ -1,8 +1,10 @@
 ---
 title: "Tmux"
 date: "2020-02-05"
-palavras-chave: ["tmux", "terminal", "multiplexador"]
-ano: ["2020"]
+palavras-chave: [tmux, terminal, composição, computação-pessoal]
+categoria: [guia]
+rubrica: ["Cortejo de utilidades"]
+ano: [2020]
 featured: false
 ---
 

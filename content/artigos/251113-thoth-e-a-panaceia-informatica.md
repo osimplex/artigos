@@ -1,8 +1,10 @@
 ---
 title: "O mito de Thoth e a panacéia informática"
 date: "2025-11-13"
-palavras-chave: ["filosofia", "computacao", "platao", "llm", "educacao"]
-ano: ["2025"]
+palavras-chave: [crítica-tecnológica, mitos-tecnológicos, computação-pessoal]
+categoria: [ensaio]
+rubrica: ["Prosa livre"]
+ano: [2025]
 featured: false
 ---
 

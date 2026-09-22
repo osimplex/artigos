@@ -1,8 +1,10 @@
 ---
 title: "O nascer do sol multicor, o bailar, ou: o início da sessão gráfica"
 date: "2021-05-31"
-palavras-chave: ["xorg", "startx", "shell"]
-ano: ["2021"]
+palavras-chave: [sessão-gráfica, x11, gnu-linux, computação-pessoal]
+categoria: [fundamentos]
+rubrica: ["Matrizes de luz"]
+ano: [2021]
 featured: false
 ---
 

@@ -1,8 +1,10 @@
 ---
 title: "Execução periódica de tarefas com o SystemD"
 date: "2020-03-17"
-palavras-chave: ["systemd", "controle", "tarefas periodicas", "newsboat"]
-ano: ["2020"]
+palavras-chave: [systemd, automação, agendamento, gnu-linux]
+categoria: [guia]
+rubrica: ["Cortejo de utilidades"]
+ano: [2020]
 featured: false
 ---
 

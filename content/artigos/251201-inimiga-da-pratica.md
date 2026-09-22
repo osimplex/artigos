@@ -1,8 +1,10 @@
 ---
 title: "A teoria é a inimiga da prática"
 date: "2025-12-01"
-palavras-chave: ["educacao", "teoria", "pratica", "computacao"]
-ano: ["2025"]
+palavras-chave: [teoria-e-prática, educação-técnica, abstração]
+categoria: [ensaio]
+rubrica: ["Prosa livre"]
+ano: [2025]
 featured: true
 ---
 

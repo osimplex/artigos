@@ -1,8 +1,10 @@
 ---
 title: "Gerenciador de senhas Pass"
 date: "2020-02-18"
-palavras-chave: ["pass", "segurança", "senhas", "shell"]
-ano: ["2020"]
+palavras-chave: [pass, senhas, segurança, computação-pessoal]
+categoria: [guia]
+rubrica: ["Cortejo de utilidades"]
+ano: [2020]
 featured: false
 ---
 

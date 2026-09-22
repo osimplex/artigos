@@ -16,13 +16,18 @@ style = "github-dark"
 
 [taxonomies]
 palavra-chave = "palavras-chave"
+categoria = "categoria"
+rubrica = "rubrica"
 ano = "ano"
 
 [related]
 includeNewer = true
 [[related.indices]]
 name = "palavras-chave"
-weight = 100
+weight = 80
+[[related.indices]]
+name = "rubrica"
+weight = 20
 
 [params.rtwt]
 searchPath = "pesquisa"
@@ -30,7 +35,7 @@ countPageItems = "15"
 
 [params.rtwt.side.home]
 sidePaneSticky = false
-taxonomies = ["palavras-chave", "ano"]
+taxonomies = ["palavras-chave", "rubrica", "ano"]
 countTaxonomy = 5
 
 [params.rtwt.side.single]
@@ -50,24 +55,29 @@ disableAliases = false
 path = 'pagina'
 
 [[languages.pt.menus.main]]
-name = "Artigos"
-pageRef = "/artigos"
+name = "Séries"
+pageRef = "/series"
 weight = 1
 
 [[languages.pt.menus.main]]
-name = "Pesquisa"
-pageRef = "/pesquisa"
+name = "Arquivo"
+pageRef = "/artigos"
 weight = 2
+
+[[languages.pt.menus.main]]
+name = "Pesquisa"
+url = "/pesquisa"
+weight = 3
+
+[[languages.pt.menus.main]]
+name = "Sobre"
+url = "/sobre"
+weight = 4
 
 [[languages.pt.menus.main]]
 name = "RSS"
 url = "/index.xml"
-weight = 3
-
-[[languages.pt.menus.main]]
-name = "GitHub"
-url = "https://github.com/osimplex"
-weight = 4
+weight = 5
 
 [caches.images]
 dir = ":cacheDir/images"
@@ -88,4 +98,4 @@ taxonomy = ['html']
 term = ['html']
 
 [services.rss]
-limit = 10
+limit = 16

@@ -1,8 +1,10 @@
 ---
 title: "Usando soquetes Unix em um protoloco IPC baseado em JSON para controlar \"remotamente\" o mpv"
 date: "2020-04-14"
-palavras-chave: ["mpv", "controle", "lua", "shell", "soquete unix"]
-ano: ["2020"]
+palavras-chave: [mpv, ipc, soquetes-unix, json, processos, interfaces]
+categoria: [implementação]
+rubrica: ["Abordagem de enlace"]
+ano: [2020]
 featured: false
 ---
 

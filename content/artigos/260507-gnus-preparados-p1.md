@@ -1,8 +1,10 @@
 ---
 title: "A arte da preparação de GNUs (I) - Base e Fundamento"
 date: "2026-05-07"
-palavras-chave: ["preparacao de GNUs", "teoria", "controle", "computacao"]
-ano: ["2026"]
+palavras-chave: [gnu-linux, unix, preparação-do-sistema, computação-pessoal]
+categoria: [série, fundamentos]
+rubrica: ["Arte de preparar GNUs"]
+ano: [2026]
 featured: true
 ---
 
@@ -33,7 +35,7 @@ Agora vamos avançar na questão dos meios de utilização. Aqui temos a possibi
  2. Dando um passo adiante, o _sistema operacional_ pode fornecer meios para a criação e execução de programas.
  3. Mais um passo, o _sistema operacional_ pode fornecer meios para que uma pessoa opere o computador.
  4. Na maior amplitude, o _sistema operacional_ pode englobar toda a coleção de programas de computador que tornam a máquina útil para uma pessoa, incluindo processador de texto, navegador e assim por diante.
- 
+
 Para a definição nº 1 temos uma outra palavra específica: _kernel_. Um _kernel_ pode ser encarado como um _sistema operacional_ ou como parte de um _sistema operacional_, depende do que estamos querendo dizer com o termo _sistema operacional_, coisa que pode variar conforme o contexto.
 
 Quem pegou outras épocas da computação conheceu computadores que disponibilizavam uma interface para programar em _BASIC_ ou carregar um programa _BASIC_ na memória. Neste caso temos a interação com sistemas operacionais que se encaixam na definição nº 2.
@@ -46,11 +48,11 @@ Recorrendo ao "_The Unix Programming Environment_" de Brian Kernighan e Rob Pike
  1. No sentido mais estrito, o _kernel_, um programa que controla os recursos de um computador e os aloca entre seus usuários, de um sistema operacional multitarefa (de tempo compartilhado em tradução literal).
  2. Em sentido mais amplo, "_Unix_" pode incluir não somente o _kernel_, mas também programas essenciais como compiladores, editores, linguagens de comando, programas para copiar e imprimir arquivos etc.
  3. Em sentido ainda mais amplo, "_Unix_" pode incluir programas criados por ti ou outros utilizadores para execução em teu sistema, como ferramentas para preparação de documentos, rotinas para análises estatísticas e programas para geração de gráficos.
- 
+
 Em seguida arremata: "qual desses usos do termo _Unix_ é correto depende de que nível de sistema está sendo considerado".
 
 Não é tão diferente da lista anterior. Podemos perceber paralelos entre as definições 1 e 1, 3 e 2, 4 e 3.
- 
+
 Adiante, dado o modo como o _Unix_ foi construído, derivou-se uma noção para _sistema operacional_ _Unix-like_: um sistema constituído de quatro elementos que tornam um computador útil e o dão característica:
  * _Kernel_
  * Biblioteca C padrão
@@ -73,13 +75,13 @@ A querela do nome se deve ao detalhe de que, normalmente, o nome do _kernel_ nã
 
 ### O devido nome das coisas
 
-Aparte a querela, para os interesses dessa série de artigos não deixo de notar que a insistência no nome do _kernel_ para nomear o sistema operacional é uma imprecisão que pode enevoar o pensamento. Basta frequentar um fórum de entusiastas e aguardar que logo aparece quem se queixe de algo em que "o _Linux_" não funciona como deveria, e, quando tu vais verificar o caso, o _Linux_ está funcionando muito bem, mas a pessoa configurou mal o comportamento de uma aplicação qualquer. 
+Aparte a querela, para os interesses dessa série de artigos não deixo de notar que a insistência no nome do _kernel_ para nomear o sistema operacional é uma imprecisão que pode enevoar o pensamento. Basta frequentar um fórum de entusiastas e aguardar que logo aparece quem se queixe de algo em que "o _Linux_" não funciona como deveria, e, quando tu vais verificar o caso, o _Linux_ está funcionando muito bem, mas a pessoa configurou mal o comportamento de uma aplicação qualquer.
 
-Ainda que seja possível chamar o _Linux_ de sistema operacional, conforme o que já foi apresentado até aqui, a definição de sistema operacional em que o _Linux_ se encaixa não faz sentido para o contexto desta série de artigos, que não vai focar em minúcias de programação em baixo nível ou produção de sistemas embarcados com _Linux_. 
+Ainda que seja possível chamar o _Linux_ de sistema operacional, conforme o que já foi apresentado até aqui, a definição de sistema operacional em que o _Linux_ se encaixa não faz sentido para o contexto desta série de artigos, que não vai focar em minúcias de programação em baixo nível ou produção de sistemas embarcados com _Linux_.
 
 O mínimo conceito de sistema operacional adequado para o contexto desta série é de _sistema operacional Unix-like_, que adere à 3ª definição descrita na [idéia de sistema operacional]({{< relref "260507-gnus-preparados-p1#a-idéia-de-sistema-operacional" >}}). Assim sendo, _Linux_ é somente o _kernel_ e GNU (porque esta é a escolha de trabalho da série) é o restante do sistema operacional. Por vezes também chamaremos o sistema operacional pelo nome da distribuição, como Arch ou Debian, quando usarmos o termo em sentido ainda mais amplo, avançando para a 4ª definição.
 
-## Um sistema operacional básico 
+## Um sistema operacional básico
 
 Estabelecido o conceito de sistema operacional _Unix-like_, passemos aos componentes. Já vimos que são quatro. Agora vamos dar algum detalhe do que seria cada um dos quatro.
 
@@ -113,7 +115,7 @@ Para prosseguirmos o estudo adotaremos o Arch como distribuição por critério 
 
 ## A instalação básica
 
-Vimos a definição de _sistema operacional Unix-like_ anteriormente. Ao lidar com distribuições teremos uma outra idéia construída sobre esta que é a _instalação básica_, que consiste no menor conjunto de pacotes que definem a instalação de uma dada distribuição. Pode-se entender que esse conjunto frequentemente vai um pouco além dos quatro elementos de um sistema _Unix-like_, incorporando pacotes que servem à obtenção de outros pacotes da distribuição por exemplo. 
+Vimos a definição de _sistema operacional Unix-like_ anteriormente. Ao lidar com distribuições teremos uma outra idéia construída sobre esta que é a _instalação básica_, que consiste no menor conjunto de pacotes que definem a instalação de uma dada distribuição. Pode-se entender que esse conjunto frequentemente vai um pouco além dos quatro elementos de um sistema _Unix-like_, incorporando pacotes que servem à obtenção de outros pacotes da distribuição por exemplo.
 
 Se retornarmos à [idéia de sistema operacional]({{< relref "260507-gnus-preparados-p1#a-idéia-de-sistema-operacional" >}}), por mais que uma _instalação básica_ tenha relativamente pouca coisa comparada com o sistema montado para "uso civil ordinário", tocar um negócio, fazer trabalhos escolares ou acadêmicos etc, o todo pode ser encarado como um _sistema operacional_ aderente com a 3ª definição apontando para a 4ª.
 

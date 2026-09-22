@@ -1,8 +1,10 @@
 ---
 title: "A arte da preparação de GNUs (II) - Liberdade e Licenciamento"
 date: "2026-08-31"
-palavras-chave: ["preparação de GNUs", "licenciamento", "computacao"]
-ano: ["2026"]
+palavras-chave: [software-livre, liberdade-de-software, licenciamento, gnu-linux]
+categoria: [série,ensaio]
+rubrica: ["Arte de preparar GNUs"]
+ano: [2026]
 featured: false
 ---
 
@@ -12,9 +14,9 @@ Em nenhum momento pretendemos oferecer orientação jurídica específica. Busqu
 
 ## Introdução
 
-Todo homem nasce, cresce, desenvolve-se e morre em sociedade. Neste pequeno ensaio de filosofia de mesa de bar será apresentado um modelo. 
+Todo homem nasce, cresce, desenvolve-se e morre em sociedade. Neste pequeno ensaio de filosofia de mesa de bar será apresentado um modelo.
 
-Este artigo tomará como centro a base que viabilizou, em última instância, até a existência desta série de artigos que escrevo: o conceito de _software_ livre, cunhado na década de 1980 por uma figura bastante pitoresca na história da computação, Richard Stallman. Este conceito, e a subsequente prática, pode-se dizer sem medo, é uma das bases da nossa história recente enquanto "esfera de influência ocidental", para usar uma categoria da não tão finada Guerra Fria. 
+Este artigo tomará como centro a base que viabilizou, em última instância, até a existência desta série de artigos que escrevo: o conceito de _software_ livre, cunhado na década de 1980 por uma figura bastante pitoresca na história da computação, Richard Stallman. Este conceito, e a subsequente prática, pode-se dizer sem medo, é uma das bases da nossa história recente enquanto "esfera de influência ocidental", para usar uma categoria da não tão finada Guerra Fria.
 
 Se o leitor imagina que aqui será o artigo de "política" contaminando assunto "técnico", digo que está certo e errado. É e não é o que o leitor imagina. Primeiro porque aqui se tratará de _política_, não de "política", segundo porque o artigo continuará num domínio técnico, uma vez que o domínio técnico não acaba onde encerram os algarismos.
 
@@ -67,7 +69,7 @@ O termo _propriedade intelectual_, ainda que seja recorrente no _status quo_, na
 
 ### Patentes e marcas
 
-Para dar uma boa noção, comparemos patentes e marcas. 
+Para dar uma boa noção, comparemos patentes e marcas.
 
 As patentes foram criadas como uma realidade de contrato social que visa evitar a perda social de desenvolvimento _industrial_ solucionando uma tensão. Todo desenvolvimento tecnológico, como um motor elétrico, se dá sobre o conhecimento social e é levado a cabo por um indivíduo ou conjunto de indivíduos organizados, do que decorre dois interesses legítimos e concorrentes: o interesse de quem realizou o esforço para chegar ao resultado de desenvolvimento, e o da sociedade em geral de incorporar este resultado ao seu patrimônio comum de modo que todos possam aproveitá-lo. Essa passagem do individual ao social necessita de uma etapa de compartilhamento, só que existe um incentivo mercantil para que isso não se dê: exclusividade na exploração comercial. Daí temos o segredo industrial. E uma característica do segredo é que ele pode se perder.
 
@@ -103,13 +105,13 @@ Mas, se com a prensa houve o nascimento e a evolução da noção de _direito de
 
 Um desenvolvimento importante se deu nos EUA: a Lei de Direitos de Cópia de 1976, em que criação e "fixação" da obra foram estabelecidas como _fato gerador_ do direito, ao invés da _publicação_, mesmo que não haja uma notificação de direitos, ou _copyright notice_. Exemplificando, se este artigo for finalizado em papel impresso, mesmo sem divulgá-lo ou escrever "todos os direitos reservados", desde momento em que estiver finalizado vigorará o meu direito de autor, ou de cópia. Isso depois terá um entendimento atualizado para um contexto com computação e _Internet_ de banda larga. Este desenvolvimento também é precursor, sendo os EUA a superpotência da esfera de influência ocidental na época, e aquela que impôs sua _pax americana_ após a queda da URSS.
 
-Podemos verificar no ordenamento legal brasileiro um eco deste modelo estabelecido em 1976 na Lei 9.610/1998, Art. 7: 
+Podemos verificar no ordenamento legal brasileiro um eco deste modelo estabelecido em 1976 na Lei 9.610/1998, Art. 7:
 
 > São obras intelectuais protegidas as criações do espírito, expressas por qualquer meio ou fixadas em qualquer suporte, tangível ou intangível, conhecido ou que se invente no futuro [...].
 
 Com isso não quero dizer que as leis dos diversos países são iguais, porque não são, cada jurisdição, reitero, com suas particularidades. Mas há um "modelo geral" em vigor.
 
-Para alinhar o entendimento usaremos a seguinte definição: 
+Para alinhar o entendimento usaremos a seguinte definição:
 
 > Direito autoral é aquele em virtude do qual o autor de uma obra literária, científica ou artística tem o direito de vincular o seu nome à sua produção, reproduzindo ou transmitindo a obra com exclusividade. Deste modo observam-se dois aspectos: a) o direito moral do autor, de ter o nome vinculado à obra, de tê-la como sua, sem modificações e deturpações; b) o elemento econômico, fundamento da propriedade imaterial, consistente no direito de explorar comercialmente a obra, representá-la, reproduzi-la, cedê-la e imprimi-la.
 
@@ -131,10 +133,10 @@ Em sociedade, essa produção humana está, com algumas particularidades que der
 
 Este artigo é escrito em 2026, o lastro do tema vai até a década de 1950. Um resumo interessante em língua portuguesa temos na dissertação de mestrado em história social de Aracele Torres do ano de 2013, "A Tecnoutopia do Software Livre: Uma história do projeto técnico e político do GNU", na segunda seção do primeiro capítulo de título: "A invenção de uma cultura _hacker_". Também vale a leitura do livro "_Hackers: Heroes of the Computer Revolution_" de Steven Levy.
 
-Sem pretender muito neste resumo do resumo do resumo, trarei a proposta de entendimento do termo _hacker_ apresentada por _Richard Stallman_, uma personagem célebre na história _hacker_: 
+Sem pretender muito neste resumo do resumo do resumo, trarei a proposta de entendimento do termo _hacker_ apresentada por _Richard Stallman_, uma personagem célebre na história _hacker_:
 
-> É difícil escrever uma definição simples de algo tão variado como _hackear_, mas penso que estas atividades têm em comum o deleite, a engenhosidade e a exploração. Deste modo, _hackear_ significa explorar os limites do possível com espírito de engenho e deleite. Atividades que demonstram um deleite no engenho têm "valor _hacker_". (tradução nossa)  
->  
+> É difícil escrever uma definição simples de algo tão variado como _hackear_, mas penso que estas atividades têm em comum o deleite, a engenhosidade e a exploração. Deste modo, _hackear_ significa explorar os limites do possível com espírito de engenho e deleite. Atividades que demonstram um deleite no engenho têm "valor _hacker_". (tradução nossa)
+>
 > -- [_On Hacking_](https://web.archive.org/web/20260826084937/https://stallman.org/articles/on-hacking.html). Richard Stallman
 
 No artigo do qual foi extraída a citação acima ainda há desenvolvimentos adicionais relevantes. O _hack_ para Stallman não é algo necessariamente útil, nem necessariamente inútil. Mais ainda, não é necessariamente algo relacionado com computação, e ele cita nominalmente uma peça musical de Guillaume de Machaut, "_Ma Fin Est Mon Commencement_". Em outra ocasião ele referencia uma peça de J. S. Bach (provavelmente o [Canon do Caranguejo](https://www.youtube.com/watch?v=miGuET40U7I), que pode ser tocado de trás para frente). Dois exemplos de _hack_ na música.
@@ -146,8 +148,8 @@ Do livro de Steven Levy também podemos extrair algumas sentenças, preceitos qu
 > Desconfie da autoridade --- Promova a decentralização.  
 > _Hackers_ devem ser julgados por seus _hacks_, não falsos critérios como escolaridade, idade, raça ou posição social.  
 > Você pode criar arte e beleza em um computador.  
-> Computadores podem mudar a sua vida para melhor. (tradução nossa)  
->  
+> Computadores podem mudar a sua vida para melhor. (tradução nossa)
+>
 > -- Hackers: Heroes of the Computer Revolution. Steven Levy, 2010
 
 Sem desenvolver muito as citações, e recomendando a leitura das fontes, chamo a atenção para duas realidades que podemos perceber:
@@ -161,7 +163,7 @@ Sem desenvolver muito as citações, e recomendando a leitura das fontes, chamo 
 
 Uma obra autoral "nasce" com _todos os direitos reservados_. Com uma e outra limitação ou exceção a depender da jurisdição e época, mas _todos os direitos reservados_. É a realidade do direito desde a "fixação" [discutida anteriormente]({{< relref "260831-gnus-preparados-p2.md#direito-autoral" >}}). Um texto, uma gravação musical, imagem, _software_ etc que esteja desprovido de algum termo que estabeleça o contrário não pode ser reproduzido, distribuído, comercializado (entre outras coisas) por terceiros. Esta é a realidade do direito desde a "fixação" da obra. Este é o _estado de "natureza"_.
 
-Estabelecido o direito, há o detentor do direito. E o detentor dos direitos sobre a obra pode permitir que terceiros se beneficiem da obra, e uma das formas de realizar isso é por meio de um instrumento chamado _licença_. Para pôr em termos simples, a licença é uma espécie de contrato em que o detentor dos direitos, ou _copyright holder_ em gringuês, concede direitos a um terceiro. 
+Estabelecido o direito, há o detentor do direito. E o detentor dos direitos sobre a obra pode permitir que terceiros se beneficiem da obra, e uma das formas de realizar isso é por meio de um instrumento chamado _licença_. Para pôr em termos simples, a licença é uma espécie de contrato em que o detentor dos direitos, ou _copyright holder_ em gringuês, concede direitos a um terceiro.
 
 Sobre essa base pode haver comércio. Um autor de livro licencia mediante pagamento a obra para que uma editora o imprima e distribua, um cantor licencia a execução de uma música para uma gravadora, um programador licencia seu _software_ para um cliente. Quem já instalou o _Windows_ (além de outros _softwares_ privativos) já teve a oportunidade de não ler e "aceitar" o contrato EULA (_End-User License Agreement_), o licenciamento do _Windows_.
 
@@ -319,7 +321,7 @@ As licenças adotadas, para ser completo, não são aceitas pela FSF, e nem pela
 
 Esse movimento de licenças manifestou limitações, então [desde o ano passado](https://redis.io/blog/agplv3), mais precisamente em maio de 2025 e na versão 8.0, o Redis passou a ser distribuído com triplo licenciamento: AGPLv3 (aceita pela FSF e pela OSI) e SSPLv1 e RSALv2. A licença AGPLv3 conta com cláusula _copyleft_ e um outro dispositivo, outra obrigação, que estipula a disponibilidade do código fonte sob a mesma licença para quem interagir com a peça de _software_ via rede (uma outra concessão de liberdades de forma indireta). Deste modo o detentor de direitos se relaciona com dois perfis, oferecendo liberdade para quem a valoriza, e oferecendo outra condição para quem não a valoriza.
 
-Outro exemplo, no ramo de impressão 3D há um projeto chamado Klipper, um _firmware_ para impressoras 3D de competência tal que é embarcado em diversas impressoras disponíveis comercialmente. Há não muito tempo o licenciamento [foi violado](https://web.archive.org/web/20260607222152/https://freethecode.lol) por um fabricante, que incorporou uma versão derivada em seu produto sem cumprir obrigações associadas a essa distribuição, mas com o tempo e alguma pressão o fabricante não só cumpriu os termos da licença, cedendo acesso ao código fonte licenciado a quem tinha direito, mas tornou pública a versão modificada do _firmware_. 
+Outro exemplo, no ramo de impressão 3D há um projeto chamado Klipper, um _firmware_ para impressoras 3D de competência tal que é embarcado em diversas impressoras disponíveis comercialmente. Há não muito tempo o licenciamento [foi violado](https://web.archive.org/web/20260607222152/https://freethecode.lol) por um fabricante, que incorporou uma versão derivada em seu produto sem cumprir obrigações associadas a essa distribuição, mas com o tempo e alguma pressão o fabricante não só cumpriu os termos da licença, cedendo acesso ao código fonte licenciado a quem tinha direito, mas tornou pública a versão modificada do _firmware_.
 
 Um caso emblemático, bem anterior e semelhante a este envolvendo o Klipper, propiciou a origem do OpenWRT em 2004, quando a Linksys foi forçada a disponibilizar acesso ao código fonte do _firmware_ embarcado nos roteadores da série WRT54G a quem de direito nos termos da licença.
 
@@ -337,7 +339,7 @@ Para cada necessidade e intenção há um licenciamento apropriado.
 
 O grande equívoco com o qual tenho contato no domínio das obrigações estipuladas pelas licenças GPL é o da "obrigação de publicar o código fonte". Alguns chegam a acreditar que para publicar, sendo o detentor de direitos, uma peça de _software_ sob GPL é necessário disponibilizar o código fonte "no GitHub".
 
-Há uma família de licenças GPL, o correto seria comentar cada uma delas. Mas como guia geral podemos clarificar, lembrando o que já discutimos sobre [o direito nascer do vínculo]({{< relref "260831-gnus-preparados-p2#o-vínculo-e-o-direito" >}}), que os direitos estabelecidos no licenciamento pertencem àquele que recebeu uma cópia licenciada de forma legítima, do vínculo. Que pode ser comercial inclusive, porque é perfeitamente legal comercializar um _software_ sob licença GPL, e não fere qualquer uma das liberdades, antes, faz parte do exercício delas. Então se uma pessoa que recebeu uma cópia licenciada sob GPL de um dado _software_, seja na forma de cópia verbatim ou modificada do código fonte, ou código objeto, esta pessoa que goza das liberdades e direitos concedidos por quem de direito quando licenciou a obra. 
+Há uma família de licenças GPL, o correto seria comentar cada uma delas. Mas como guia geral podemos clarificar, lembrando o que já discutimos sobre [o direito nascer do vínculo]({{< relref "260831-gnus-preparados-p2#o-vínculo-e-o-direito" >}}), que os direitos estabelecidos no licenciamento pertencem àquele que recebeu uma cópia licenciada de forma legítima, do vínculo. Que pode ser comercial inclusive, porque é perfeitamente legal comercializar um _software_ sob licença GPL, e não fere qualquer uma das liberdades, antes, faz parte do exercício delas. Então se uma pessoa que recebeu uma cópia licenciada sob GPL de um dado _software_, seja na forma de cópia verbatim ou modificada do código fonte, ou código objeto, esta pessoa que goza das liberdades e direitos concedidos por quem de direito quando licenciou a obra.
 
 Pode-se argumentar que esta pessoa, gozando de todas as liberdades, pode redistribuir o _software_. E de fato pode, caso não haja condição estipulada por ordem judicial ou algum contrato adicional, que vai além do licenciamento. O que conta até com uma previsão parcial que podemos verificar na 12a seção da GPLv3 de título [_No Surrender of Others' Freedom_](https://www.gnu.org/licenses/gpl-3.0.html).
 

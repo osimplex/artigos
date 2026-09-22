@@ -1,8 +1,10 @@
 ---
 title: "Proposta em Bash para uma implementação independente de janela transiente com o wmctrl"
 date: "2020-04-20"
-palavras-chave: ["xorg", "controle", "shell", "wmctrl"]
-ano: ["2020"]
+palavras-chave: [wmctrl, x11, gerenciamento-de-janelas, janelas-transientes]
+categoria: [implementação]
+rubrica: ["Matrizes de luz"]
+ano: [2020]
 featured: false
 ---
 
