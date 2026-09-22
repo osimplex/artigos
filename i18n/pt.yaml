@@ -35,3 +35,6 @@ side_related: Relacionados
 
 # Drawer
 drawer_menu: Menu
+drawer_table_of_contents: Guia
+drawer_open: Abrir painel lateral
+drawer_close: Fechar

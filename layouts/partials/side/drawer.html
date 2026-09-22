@@ -1,11 +1,11 @@
-<input type="checkbox" id="side-drawer-toggle" hidden>
+<input type="checkbox" id="side-drawer-toggle" aria-hidden="true" tabindex="-1">
 <!-- Drawer (no JS): checkbox hack, same content as the desktop side pane -->
 <div id="side-drawer-overlay"></div>
 <aside id="side-drawer" role="dialog" aria-label="{{ site.Title }}">
   <div class="side-drawer-header">
     <span class="drawer-title-menu">{{ i18n "drawer_menu" | default "Menu" }}</span>
-    <span class="drawer-title-summary">{{ i18n "side_table_of_contents" | default "Sumário" }}</span>
-    <label id="side-drawer-close" for="side-drawer-toggle" aria-label="Close" tabindex="0">
+    <span class="drawer-title-summary">{{ i18n "drawer_table_of_contents" | default "Menu" }}</span>
+    <label id="side-drawer-close" for="side-drawer-toggle" aria-label="{{ i18n "drawer_close" | default "Close" }}" tabindex="0">
       {{ partial "svg/x.svg" . }}
     </label>
   </div>

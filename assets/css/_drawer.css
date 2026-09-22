@@ -71,15 +71,6 @@
   position: static;
 }
 
-/* merge main nav into drawer; hide theme's JS dropdown button */
-@media (max-width: 1128px) {
-  a#nav-dropdown-button,
-  #nav-dropdown-button i,
-  #nav-dropdown-button svg {
-    display: none !important;
-  }
-}
-
 .side-drawer-nav {
   display: flex;
   flex-wrap: wrap;
@@ -136,7 +127,7 @@
 
 /* drawer title by breakpoint — ties to the same 1128/768px constants above:
    ≤768px the drawer IS the navigation → "Menu";
-   768–1128px the drawer is the side-content panel opened by "Sumário". */
+   768–1128px the drawer is the side-content panel. */
 .drawer-title-menu { display: none; }
 .drawer-title-summary { display: none; }
 @media (max-width: 768px) {
