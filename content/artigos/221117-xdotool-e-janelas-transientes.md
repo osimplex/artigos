@@ -8,7 +8,7 @@ ano: [2022]
 featured: false
 ---
 
-Este artigo é uma resposta para a proposta publicada em 20 de abril de 2020, de implementação de janela transiente em Bash usando o utilitário wmctrl para interação com o gerenciador de janelas através da definições no servidor gráfico, o _Xorg_.
+Este artigo é uma resposta para a [proposta publicada em 20 de abril de 2020]({{< relref "200420-wmctrl-e-janelas-transientes" >}}), de implementação de janela transiente em Bash usando o utilitário wmctrl para interação com o gerenciador de janelas através da definições no servidor gráfico, o _Xorg_.
 
 Toda a contextualização com as justificativas e apresentação do conceito de janela transiente foi apresentada no artigo que apresentou a proposta com `wmctrl`.
 

@@ -19,6 +19,8 @@ Este artigo foi construído usando Arch Linux com os seguintes programas, nas re
   * Alacritty : `0.4.2-1`
   * wmctrl : `1.07-5`
 
+Nota: há [uma resposta a este artigo]({{< relref "221117-xdotool-e-janelas-transientes" >}}) apresentando uma implementação do mesmo conceito utilizando o `xdotool`.
+
 ## 1. Introdução
 Apresenta-se nessa sessão uma breve contextualização e a justificativa para a presente proposta
 

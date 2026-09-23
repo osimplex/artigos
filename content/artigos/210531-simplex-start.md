@@ -137,7 +137,7 @@ Como pequeno floreio, reproduzindo por outro caminho uma das partes do `startx` 
 
 Um dado programa com interface gráfica precisará dos _dados de autorização_, quando o servidor gráfico for iniciado com `-auth [arquivo de dados de autorização]`, para estabelecer comunicação com o servidor gráfico e então transmitir a interface gráfica e receber os dados de entrada (datilografia, movimento do cursor etc).
 
-> Não será matéria aqui o quanto isso é considerado um protocolo “seguro”. Uma vez que em tempo de execução será necessário o acesso, para cada programa, ao estado do servidor gráfico, se torna questionável a invenção de grandes motes de “segurança” onde se trata simplesmente do funcionamento do recurso. Seja para capturas de tela ou o uso de um mecanismo sofisticado de atalhos de teclado como o [Sxhkd](https://odysee.com/@osimplex:f/atalhos-de-teclado-sxhkd:5).
+> Não será matéria aqui o quanto isso é considerado um protocolo “seguro”. Uma vez que em tempo de execução será necessário o acesso, para cada programa, ao estado do servidor gráfico, se torna questionável a invenção de grandes motes de “segurança” onde se trata simplesmente do funcionamento do recurso. Seja para capturas de tela ou o uso de um mecanismo sofisticado de atalhos de teclado como o [Sxhkd]({{< relref "200210-atalhos-de-teclado-sxhkd" >}}).
 
 Usando-se da variável de ambiente `XAUTHORITY` para indicar um local para depositar esses dados seguiremos em frente. Seria possível deixar o arquivos em `$HOME/.Xauthority`, mas vamos explorar mais essa possibilidade. O local será, em uma instalação onde o _systemd-logind_ atua, `$XAUTHORITY` -> `/run/user/$(id -u)/Xauthority`.
 
