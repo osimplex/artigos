@@ -1,6 +1,6 @@
 <input type="checkbox" id="side-drawer-toggle" aria-hidden="true" tabindex="-1">
 <!-- Drawer (no JS): checkbox hack, same content as the desktop side pane -->
-<div id="side-drawer-overlay"></div>
+<label for="side-drawer-toggle" id="side-drawer-overlay" aria-label="{{ i18n "drawer_close" | default "Close" }}"></label>
 <aside id="side-drawer" role="dialog" aria-label="{{ site.Title }}">
   <div class="side-drawer-header">
     <span class="drawer-title-menu">{{ i18n "drawer_menu" | default "Menu" }}</span>
