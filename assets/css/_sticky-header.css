@@ -1,0 +1,16 @@
+/* Sticky header for single pages on small screens (<1128px):
+   keeps the nav + drawer trigger reachable while reading. */
+
+@media (max-width: 1128px) {
+  body.is-single header#main-header {
+    position: sticky;
+    top: 0;
+    z-index: 500;
+    background-color: var(--body-background-color);
+    border-bottom: 1px var(--dim-color) solid;
+  }
+
+  body.is-single h1, h2, h3, h4, h5, h6 {
+    scroll-margin-top: 52px;
+  }
+}

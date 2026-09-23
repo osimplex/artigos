@@ -1,4 +1,4 @@
-/* side pane internal scroll for large TOCs (>1128px).
+/* Side pane internal scroll for large TOCs (>1128px).
    below 1128px the side pane is hidden and the drawer handles the content. */
 @media (min-width: 1129px) {
   /* extra class on the ancestor raises specificity above the theme's

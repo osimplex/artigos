@@ -3,7 +3,7 @@
 <head>
   {{ partial "head.html" . }}
 </head>
-<body class="notransition">
+<body class="notransition{{ if .IsPage }} is-single{{ end }}">
   <div id="container">
     <header id="main-header">
       {{- partial "header.html" . -}}
