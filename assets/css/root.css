@@ -22,7 +22,7 @@
   --hover-dim-color: #000000;
   --selection-color: #6a84ad;
 
-  --dim-opacity: 65%;
+  --dim-opacity: 75%;
 
   --quote-text-color: #595959;
 }
@@ -33,10 +33,9 @@
 
   --primary-color: #6297e3;
   --hover-dim-color: #ffffff;
-  --selection-color: #6a84ad;
+  --selection-color: #4a6488;
 
-  --dim-opacity: 50%;
+  --dim-opacity: 60%;
 
   --quote-text-color: #a1a1a1;
 }
-
