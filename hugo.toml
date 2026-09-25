@@ -13,6 +13,7 @@ name = "Simplex"
 
 [markup.highlight]
 style = "github-dark"
+noClasses = false
 
 [taxonomies]
 palavra-chave = "palavras-chave"

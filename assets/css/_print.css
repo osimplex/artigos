@@ -1,0 +1,203 @@
+/* Print stylesheet: clean, ink-friendly layout tuned for A4.
+   Screen-only chrome is removed; content remains compact and readable. */
+
+@page {
+  size: A4;
+  margin: 12mm 14mm 14mm;
+}
+
+@media print {
+  /* Light scheme for paper, regardless of the visitor's preference */
+  :root
+  :root[color-scheme^='light'],
+  :root[color-scheme^='dark'] {
+    --body-text-color: #111;
+    --body-background-color: #fff;
+    --quote-text-color: #111;
+    --primary-color: #222;
+    --background-color: #ffffff;
+    --border-color: #ddd;
+    --selection-color: transparent;
+    --dim-color: #999999;
+    --code-text-color: #111;
+    --code-background-color: transparent;
+  }
+
+  body {
+    background: #fff !important;
+    color: #111 !important;
+    margin: 0 !important;
+    min-height: 0 !important;
+    height: auto !important;
+  }
+
+  /* Screen-only chrome */
+  header#main-header,
+  ol.breadcrumbs,
+  aside#side-pane,
+  #side-drawer,
+  #side-drawer-overlay,
+  #side-drawer-toggle,
+  footer#main-footer,
+  a#nav-dropdown-button,
+  div#nav-dropdown-menu {
+    display: none !important;
+  }
+
+  /* Release screen layout constraints and prevent print clipping. */
+  div#container,
+  div#main-pane,
+  main#main-content {
+    display: block !important;
+    width: auto !important;
+    max-width: none !important;
+    min-width: 0 !important;
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: visible !important;
+  }
+
+  /* Compact print typography */
+  body {
+    font-size: 11pt;
+    line-height: 1.15;
+  }
+
+  h1 {
+    font-size: 19pt;
+    line-height: 1.15;
+    margin: 0 0 0.6rem;
+  }
+
+  h2 {
+    font-size: 15pt;
+    line-height: 1.2;
+    margin: 1.2rem 0 0.4rem;
+  }
+
+  h3 {
+    font-size: 12pt;
+    line-height: 1.2;
+    margin: 1rem 0 0.35rem;
+  }
+
+  h4, h5, h6 {
+    font-size: 10pt;
+    line-height: 1.2;
+    margin: 0.8rem 0 0.3rem;
+  }
+
+  p {
+    margin: 0.45rem 0;
+  }
+
+  ul, ol {
+    margin: 0.45rem 0;
+    padding-left: 1.1rem;
+  }
+
+  li {
+    margin: 0.15rem 0;
+  }
+
+  figure {
+    margin: 0.7rem 0;
+  }
+
+  hr {
+    margin: 0.8rem 0;
+  }
+
+  /* Pagination control */
+  h1, h2, h3, h4, h5, h6 {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  p, li, figcaption {
+    orphans: 3;
+    widows: 3;
+  }
+
+  table, img, figure {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* Blockquotes */
+  blockquote {
+    padding: 0 .2rem;
+    margin: .6rem 0;
+    border-left: 3px solid #666;
+    background: none !important;
+    box-shadow: none !important;
+    color: inherit;
+  }
+
+  /* Tables */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.92em;
+  }
+
+  th, td {
+    border: 1px solid #999;
+    padding: 0.2rem 0.45rem;
+    overflow-wrap: anywhere;
+  }
+
+  thead {
+    display: table-header-group;
+  }
+
+  /* Code blocks */
+  main#main-content pre {
+    display: block !important;
+    max-width: 100%;
+    overflow: visible !important;
+    box-sizing: border-box;
+    padding: 0.5rem;
+    background: #f2f2f2 !important;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    font-size: 0.9em;
+  }
+
+  :not(pre) > code {
+    background: #f2f2f2 !important;
+    border-radius: 0;
+    overflow-wrap: anywhere;
+  }
+
+  /* Images */
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0;
+  }
+
+  /* Printed links */
+  main#main-content a ,
+  section.page-section a {
+    color: inherit;
+  }
+  section.page-section a[href]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.85em;
+    word-break: normal;          /* keep words whole where possible */
+    overflow-wrap: anywhere;     /* but URLs too long for a line may break */
+  }
+
+  /* Disable motion */
+  *, *::before, *::after {
+    transition: none !important;
+    animation: none !important;
+  }
+}
