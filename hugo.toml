@@ -36,7 +36,7 @@ countPageItems = "15"
 
 [params.rtwt.side.home]
 sidePaneSticky = false
-taxonomies = ["palavras-chave", "rubrica", "ano"]
+taxonomies = ["palavras-chave", "rubrica", "categoria", "ano"]
 countTaxonomy = 5
 
 [params.rtwt.side.single]
