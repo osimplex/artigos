@@ -8,9 +8,9 @@ ano: [2026]
 featured: false
 ---
 
-Este é o segundo artigo de uma série dedicada à arte de preparar um sistema operacional _Unix-like_ para uso pessoal, com ênfase no _GNU/Linux_. Neste artigo se tratará de algo frequentemente relegado a um segundo plano, muitas vezes apresentado sem o devido cuidado, divulgando-se enormes erros em nome de "simplificar" a matéria. O assunto hoje é liberdade de _software_ e licenciamento.
+**_Em nenhum momento pretendemos oferecer com este artigo orientação jurídica específica. Busque um advogado. Faça tua própria pesquisa._**
 
-Em nenhum momento pretendemos oferecer orientação jurídica específica. Busque um advogado, faça sua pesquisa.
+Este é o segundo artigo de uma série dedicada à arte de preparar um sistema operacional _Unix-like_ para uso pessoal, com ênfase no _GNU/Linux_. Neste artigo se tratará de algo frequentemente relegado a um segundo plano, muitas vezes apresentado sem o devido cuidado, divulgando-se enormes erros em nome de "simplificar" a matéria. O assunto hoje é liberdade de _software_ e licenciamento.
 
 ## Introdução
 
@@ -245,7 +245,7 @@ Também devemos fazer a mesma ressalva que fizemos quanto ao _software_ livre. E
 
 ### Intersecção e disjunção
 
-A OSI como a FSF trabalham com base em um modelo de licenciamento mais ou menos semelhante, apesar de visões e propósitos completamente distintos. Isto produz uma situação que é a seguinte: em sentido estrito, uma boa fatia dos _softwares_ livres são de código aberto e vice-versa, por estarem disponíveis sob licença aceita por ambas as organizações.
+A OSI como a FSF trabalham com base em um modelo de licenciamento mais ou menos semelhante, apesar de visões e propósitos completamente distintos. Isto produz uma situação que é a seguinte: em sentido estrito, uma boa fatia dos _softwares_ livres são de código aberto e vice-versa, por estarem disponíveis sob licença conforme os parâmetros de ambas as organizações e aceita por ambas as organizações.
 
 Existem licenças aceitas pela FSF que são rejeitadas pela OSI, e o contrário também. A _Linux Foundation_ mantém uma lista atualizada com diversas licenças e seus respectivos status de aprovação na FSF e na OSI, que pode ser consultada [aqui](https://spdx.org/licenses).
 
@@ -258,6 +258,10 @@ _Software_ livre é sobre liberdade, não sobre _software_ gratuito. O _slogan_ 
 E também existem peças e situações rejeitadas por ambas. Uma delas é a situação do chamado _código disponível_, ou código _meramente_ disponível. _Source available_ em gringuês. Exemplificando, imagine um repositório de código fonte acessível via _Internet_, sem licença porém. Já foi discutido o [estado de "natureza"]({{< relref "260831-gnus-preparados-p2#estado-de-natureza" >}}) da obra autoral, código disponível desta maneira não é livre e nem aberto. Para que seja considerado livre e/ou aberto é necessário o licenciamento sob algo que seja aceito pela FSF e/ou OSI. É uma situação recorrente, porém, ouvir dizer que esse tipo de peça se trata de "código aberto" pelo fato do acesso estar aberto, mas isso não está correto.
 
 Podendo dizer uma coisa ou outra, citar _software_ livre e do código aberto, é justo aplicar os termos com consciência e fidelidade às linhas de pensamento. Pessoalmente, dificilmente vou classificar uma peça de _software_ que use e aprecie como de código aberto, coincidindo a aceitação de licenciamento aplicado, porque o que me importa não é vender um modo de produção no seguimento corporativo, mas as liberdades, a relação de respeito, a cultura _hacker_. Mas não é como se isso fosse uma _filosofia_ (em sentido bem amplo) e a posição da OSI não fosse, bem pelo contrário, porque o pragmatismo também é uma posição, ou uma escola, filosófica. Cada qual com os próprios valores.
+
+Vale dizer também que as ênfases não são excludentes. A ênfase na liberdade dos utilizadores não exclui qualidade de _software_ e nem eficiência do modo de produção. E a ênfase no modo de produção não exclui preocupações como o aprisionamento tecnológico. Mas os focos primários determinam os secundários.
+
+Ainda assim julgamos que _software_ livre e código aberto não são linhas opostas. Há quem considere, mas o sentido de nossa defesa é que não se trata de um par de opostos polares, e nem complementares. São duas propostas diferentes, cada qual com seu foco. E a nós cabe ter consciência do que se trata cada uma para aplicar quando couber e convier.
 
 ## Tópicos associados
 
